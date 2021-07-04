@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+		
+    <h1>Guess the Game</h1>
+       <input type ="number" class ="cin" placeholder="enter number">
+         <button id = "myBtn">Submit</button>
+        <p id = "demo"></p> 
+        <div id = "result"></div>
+</body>
+
+<script type="text/javascript">
+	
+var count = 1;
+let Ra = (Math.random() * 100) + 1;
+const x = document.querySelector('.cin');
+const result = document.getElementById('result');
+const guesses = document.getElementById('demo');
+const guessSubmit = document.querySelector('#myBtn');
+   
+   function run(){
+
+   let userGuess = Number(x.value);
+   alert(userGuess);
+    if(count == 1)
+      guesses.textContent = "Previous number:";
+  	
+     guesses.textContent += userGuess + ' ';
+  
+    if(userGuess == Ra)    {
+          result.textContent=  "guess is Correct, You guessed number in " + count + "guess";
+          result.style.background= "green";
+          result.style.color= "white";
+          return;
+          
+          }
+          if(userGuess < Ra){
+              result.textContent="attempt is wrong try greater number ";
+              result.style.background= "red";
+              result.style.color= "white";
+              }
+              
+              
+          if(userGuess > Ra){
+             result.textContent= "Attempt is wrong try small number";
+             result.style.background= "red";
+             result.style.color= "white";
+             }
+             
+          count++; 
+}
+      guessSubmit.addEventListener('click', run);
+</script>
+</html>

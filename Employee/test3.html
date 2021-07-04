@@ -1,0 +1,19 @@
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript">
+var max = 20;// set with php
+$(incCounter);
+function incCounter() {
+    var currCount = parseInt($('.counter').html());
+    $('.counter').text(currCount+1);
+    if (currCount+1 != max) {
+        setTimeout(incCounter,50);
+    }
+}
+</script>
+</head>
+<body>
+<div class="counter">0</div>
+</body>
+</html>
