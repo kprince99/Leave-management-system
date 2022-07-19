@@ -1,4 +1,4 @@
-
+![Easy](https://user-images.githubusercontent.com/58019458/179824364-e48bc56e-b542-4da9-99c7-731f7a07f77d.png)
 # HREasy
 ## INTRODUCTION
 HREasy is a  Online Leave Management System project  that enables you to get the status of the leave, view daily attendance record, and to apply for leave.
