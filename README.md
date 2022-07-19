@@ -1,7 +1,8 @@
 ![Logo-preview](https://user-images.githubusercontent.com/58019458/179824928-49a6e66e-9ab2-444a-8bd3-41b818dc1fef.png)
-# HREasy
+
+# EasyHR
 ## INTRODUCTION
-HREasy is a  Online Leave Management System project  that enables you to get the status of the leave, view daily attendance record, and to apply for leave.
+EasyHR is a  Online Leave Management System project  that enables you to get the status of the leave, view daily attendance record, and to apply for leave.
 
 It facilitates you to :
 
@@ -48,5 +49,3 @@ have access to the Leave Management S ystem. All the users will be USER
 • Option to change the password
 
 
-
-###End
