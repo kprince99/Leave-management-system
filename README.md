@@ -15,7 +15,7 @@ This Project is first Build of PHP
 ## Permission Privilages
 
 This application allows the following different types of user with different privileges:
-•** SUPERUSER (REPORTING USER)**
+•**SUPERUSER (REPORTING USER)**
 • **USER
 • ADMIN**
 
